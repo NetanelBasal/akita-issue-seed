@@ -135,5 +135,8 @@
       }
     }
   },
-  "defaultProject": "akita-issue-seed"
+  "defaultProject": "akita-issue-seed",
+  "cli": {
+    "defaultCollection": "akita-schematics"
+  }
 }

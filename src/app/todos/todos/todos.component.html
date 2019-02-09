@@ -1,0 +1,7 @@
+<ng-template #loading>Loading...</ng-template>
+
+<ul *ngIf="!(isLoading$ | async); else loading">
+  <li *ngFor="let todo of (todos$ | async)">
+    {{todo.title}}
+  </li>
+</ul>
