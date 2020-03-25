@@ -16,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     TodosModule,
     HttpClientModule,
-    environment.production ? [] : AkitaNgDevtools.forRoot()
+    environment.production ? [] : AkitaNgDevtools
   ],
   providers: [],
   bootstrap: [AppComponent]
